@@ -19,7 +19,7 @@ const Navbar = () => {
       <style jsx>
         {`
           ul {
-            background-color: lightgray;
+            background-color: darkgray;
             width: 97vw;
             color: green;
             margin: 1.5em auto 0;
@@ -36,7 +36,7 @@ const Navbar = () => {
             font-size: 23px;
             font-weight: 900;
             letter-spacing: 5px;
-            color: #0071f39c;
+            color: #0071f3d0;
           }
         `}
       </style>

@@ -10,7 +10,7 @@ export default function Home(props) {
     <Layout>
       <div className={styles.container}>
         <Head>
-          <title>Create Next App</title>
+          <title>bittY coin Price</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
@@ -19,7 +19,7 @@ export default function Home(props) {
             Welcome to <a href="#">bittY !</a>
           </h1>
           <p>{props.bpi.time.updated}</p>
-          
+
           <div>
             <Prices bpi={props.bpi} />
           </div>
@@ -31,7 +31,7 @@ export default function Home(props) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Powered by <span> Ash</span>
+            Powered by <span> Ash</span> and<p>CoinDesk</p>
           </a>
         </footer>
         <style jsx>
